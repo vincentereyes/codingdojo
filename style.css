@@ -1,0 +1,59 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 970px;
+ background-color: #1d345d;
+ margin: 0px auto;
+ overflow: auto;
+ padding: 10px;
+}
+#header{
+ height: 30px;
+ font-size: 25px;
+ font-weight: 700;
+ color: #c2d6eb;
+ background-color: #cf3036;
+ padding: 15px;
+ margin-bottom: 20px;
+ border-radius: 10px;
+
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: #2b7c8c;
+ display: inline-block;
+ border-radius: 10px;
+ color: #5bcccd;
+ text-decoration: underline;
+ padding: 20px
+ 
+}
+#main_content{
+ height: 400px;
+ width: 700px;
+ background-color: red;
+ float: right;
+ display: inline;
+ padding: 10px;
+}
+.subcontents{
+ height: 200px;
+ width: 210px;
+ background-color: yellow;
+ display: inline-block;
+ margin: 5px;
+}
+#advertisement{
+ height: 120px;
+ width: 660px;
+ background-color: purple;
+ margin: 10px;
+}
+
+li{
+	margin-left: 15px;
+}
